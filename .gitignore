@@ -1,0 +1,31 @@
+#cache to store compiled bytecode files
+__pycache__/ 
+# Compiled python files (bytecode) - created when python imports modules
+*.pyc 
+# storiing python virtual environments using venv
+.venv/ 
+#python package metadata directories created during package building
+*.egg-info/ 
+dist/ 
+build/
+*.python
+# Optimized bytecode (-0 flag files)
+*.pyo 
+# Extension modules (compiled C/C++ extensions)
+*.pyd 
+
+# I gnore all files in data dir
+data/* 
+# But keep the directory itself by including the .gitkeep file
+!data/.gitkeep 
+
+# Ignore the environment vars
+.env 
+
+#Ignore jupyter notebook checkpoint dirs
+*.ipynb_checkpoints 
+
+#macOs hidden file that stores folder attributes and custom icons
+.DS_Store
+#Windows thumbnail cache file 
+Thumbs.db
