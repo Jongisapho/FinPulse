@@ -10,8 +10,8 @@
 3. Run: `poetry run python src/finpulse/main.py`
 
 ## Status
-Done : Data fetching and basic agent setup
-In Progress : Unit test for DataFetcherAgent 
-To-DO : predictive modelling with tensorflow and prophet
-To-DO : command-line interface for timeframe and range selection
-To-DO : Deploy the application
+Done : Data fetching and basic agent setup <br>
+In Progress : Unit test for DataFetcherAgent <br> 
+To-DO : predictive modelling with tensorflow and prophet <br>
+To-DO : command-line interface for timeframe and range selection <br>
+To-DO : Deploy the application <br>
