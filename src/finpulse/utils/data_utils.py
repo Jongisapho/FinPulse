@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import os
 import matplotlib.pyplot as plt
 try:
     import talib
@@ -62,5 +63,6 @@ def plot_stock_data(data: pd.DataFrame, ticker: str):
     ax2.legend()
     ax2.grid()
 
+    os.makedirs("data/processed", exist_ok=True)
     plt.savefig(f"data/processed/{ticker}_plot.png")
     plt.close()
