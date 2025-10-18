@@ -1,15 +1,20 @@
-[project]
+[tool.poetry]
 name = "finpulse"
 version = "0.1.0"
-description = "Fin pulse is an agent that uses real-time stock data to analyze trends, predict short-term prices and generate reports with visualisations for proactive insights."
-authors = [
-    {name = "Jongisapho Ndeya",email = "u22625926@tuks.co.za"}
-]
+description = "FinPulse is an agent that uses real-time stock data to analyze trends, predict short-term prices, and generate reports with visualizations for proactive insights."
+authors = ["Jongisapho Ndeya <u22625926@tuks.co.za>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-]
+packages = [{include = "finpulse", from = "src"}]
 
+[tool.poetry.dependencies]
+python = ">=3.13,<3.14"
+yfinance = ">=0.2.66,<0.3.0"
+pandas = ">=2.2.3,<3.0.0"
+numpy = ">=1.26.4,<2.0.0"
+matplotlib = ">=3.9.2,<4.0.0"
+pyyaml = ">=6.0.2,<7.0.0"
+python-dotenv = ">=1.0.1,<2.0.0"
+ta-lib = ">=0.4.32,<0.5.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

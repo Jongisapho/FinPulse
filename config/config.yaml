@@ -1,0 +1,6 @@
+tickers:
+     - ^DJI
+     - ^GDAXI
+timeframe: "1h"
+range: 72
+data_dir: "data/raw"
