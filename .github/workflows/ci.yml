@@ -76,8 +76,8 @@ jobs:
           poetry run pip install flake8 || echo "flake8 installation failed, skipping..."
           poetry run flake8 src --max-line-length=120 || echo "Linting skipped or failed"
 
-      # Placeholder for tests
+      # Run tests with pytest
       - name: Run tests
         run: |
-          poetry run pip install pytest || echo "pytest installation failed, skipping..."
-          poetry run pytest tests --verbose || echo "No tests found, skipping..."
+          poetry run pip install pytest 
+          poetry run pytest tests --verbose
