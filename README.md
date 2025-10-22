@@ -23,6 +23,7 @@
 4. Add unit tests
 
 ## Status
+![Codecov](https://codecov.io/gh/jongisapho/finpulse/branch/main/graph/badge.svg)
 Done : Data fetching and basic agent setup <br>
 Done : Unit test for DataFetcherAgent <br> 
 Next : predictive modelling with tensorflow and prophet <br>

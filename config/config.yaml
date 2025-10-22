@@ -1,6 +1,7 @@
 tickers:
      - ^DJI
      - ^GDAXI
+     - EURUSD=X
 timeframe: "1h"
-range: 72
+range: 144
 data_dir: "data/raw"
